@@ -26,7 +26,7 @@ while vid.isOpened():
             draw_fn.draw_landmarks(img, landmarks, mp.solutions.face_mesh_connections.FACEMESH_TESSELATION)
     
     
-    cv2.imshow('Pose and Hand Tracking',img)
+    cv2.imshow('Face Mesh Recognition',img)
     
     if cv2.waitKey(1) in [27,13,ord('q')]:
         break
